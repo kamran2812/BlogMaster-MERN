@@ -3,6 +3,8 @@
 ## Description
 BlogMaster-MERN is a full-stack web application built with the MERN (MongoDB, Express.js, React.js, Node.js) stack. The application allows users to register, log in, and create blog posts. Users can categorize posts and search for them by title, providing a seamless blogging experience.
 
+ **Note:** The **master** branch is the main branch of this repository, containing the project structure, including the **client** and **server** folders.
+
 ## Features
 - User Authentication: Users can register and log in to access their accounts.
 - Blog Management: Create, edit, and delete blog posts.
