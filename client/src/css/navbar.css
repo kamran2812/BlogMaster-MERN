@@ -1,0 +1,73 @@
+.navbar {
+    background-color: rgb(230, 232, 234); /* Change the background color */
+    font-size: 20px; /* Increase the font size */
+    font-weight:500; /* Increase the font weight */
+    padding: 5px 0; /* Add padding to the top and bottom of the navbar */
+  }
+ 
+  /* 
+  Style the brand (Kamran) text */
+  .navbar-brand {
+    text-transform: uppercase; /* Make the text uppercase */
+     letter-spacing: 2px; /* Add spacing between letters */
+  }
+  .navbar-brand img {
+    width: 75px; /* Set the width of the logo */
+    height: 65px; /* Set the height of the logo */
+  }
+  
+  
+  
+  /* Style the navigation links */
+  
+  .navbar .nav-link {
+    color: #0a7ecd !important;
+    font-size: 18px; /* Increase the font size */
+    padding: 0 5px; /* Add padding to the left and right of the text */
+    margin: 0 5px; /* Add a margin between the links */
+  }
+  .navbar .nav-link::first-letter {
+    color: #00549d!important;
+    font-weight: 600;
+   
+  }
+  
+  /* .navbar .nav-link.active {
+    /* color: #00549d !important; 
+  } */
+  
+  .soc{
+    color: #00549d;
+    font-size: 25px; /* Increase the font size */
+    font-weight: 700;
+  }
+  .word{
+    color: #0a7ecd;
+    font-size: 20px; /* Increase the font size */
+    font-weight: 600;
+    text-align: center;
+  }@media (max-width: 406px) { /* screen width less than or equal to 768px */
+    .navbar-brand img {
+        width: 40px; /* smaller logo size for smaller screens */
+        height: 40px;
+    }
+    .navbar-brand .soc {
+      font-size: 18px; /* reduce the font-size for smaller screens */
+    }
+    .navbar-brand .word {
+      display: none; /* hide the soc span for smaller screens */
+    }
+  }
+  @media (max-width: 249px) { /* screen width less than or equal to 768px */
+    .navbar-brand img {
+        width: 30px; /* smaller logo size for smaller screens */
+        height: 30px;
+    }
+    .navbar-brand .soc {
+      font-size: 16px; /* reduce the font-size for smaller screens */
+    }
+    .navbar-brand .word {
+      display: none; /* hide the soc span for smaller screens */
+    }
+  }
+  
